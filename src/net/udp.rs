@@ -7,7 +7,7 @@ use socket2::SockAddr;
 use std::{
     io,
     net::SocketAddr,
-    os::unix::prelude::{AsFd, AsRawFd},
+    os::unix::prelude::{AsRawFd},
 };
 
 /// A UDP socket.
